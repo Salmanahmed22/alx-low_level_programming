@@ -5,11 +5,9 @@
 /* betty style doc for function main goes there */
 
 /**
-*main - main function 
-*
+*main - main function
 *Return: 0 always (success)
 */
-
 int main(void)
 {
 	int n;
