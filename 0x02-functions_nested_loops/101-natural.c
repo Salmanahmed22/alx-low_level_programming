@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int i:
+	int i;
 	int sum;
 
 	sum = 0;
@@ -17,9 +17,9 @@ int main(void)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum += i;
+			sum = sum + i;
 		}
 	}
-	prinntf("%d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
